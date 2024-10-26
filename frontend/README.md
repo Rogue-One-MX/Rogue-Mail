@@ -4,4 +4,4 @@ You can install by running the following commands:
 yarn install
 ```
 
-Plase add the project json [file](https://drive.google.com/drive/folders/1eiTce_MOM5j1dOTHiOh5fLH9txmbKf2y?usp=sharing) to the root of the frontend project.
+Plase add the project json [file](https://drive.google.com/drive/folders/1ZlW_DZMQwNNJAf7Erh5GUCg9VOGqMAt_?usp=sharing) to the root of the frontend project.
