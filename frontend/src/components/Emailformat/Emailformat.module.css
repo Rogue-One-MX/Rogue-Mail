@@ -1,0 +1,171 @@
+
+/* Header with search bar */
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f1f3f4;
+}
+
+.searchBar {
+  width: 60%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Tabs for email categories */
+.categoryTabs {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f1f3f4;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.categoryTab {
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center; /* Align icon and text in the center */
+  gap: 6px; /* Space between icon and text */
+}
+
+.categoryTab:hover {
+  color: #007bff;
+}
+
+/* Email list styling */
+.emailList {
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Individual email item */
+.emailItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.emailItem:hover {
+  background-color: #f9f9f9;
+}
+
+.emailSender {
+  font-weight: bold;
+  width: 20%;
+  color: #555;
+}
+
+.emailSubject {
+  width: 60%;
+  color: #0d0c0c;
+  padding-left: 10px;
+}
+
+.emailDate {
+  width: 20%;
+  color:  rgb(64, 62, 62);
+  text-align: right;
+}
+
+/* Fraud email styling */
+.fraudEmail {
+  background-color: #d1474763;
+  color: rgb(14, 14, 14);
+  font-weight: bold;
+}
+
+
+/* Bug icon for fraudulent emails */
+.bugIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Category icon styling */
+.categoryIcon {
+  width: 18px;
+  height: 18px;
+  margin-right: 18px;
+}
+
+/* Full-page gradient background */
+.wrapper {
+  min-height: 100vh; /* Full viewport height */
+  background: linear-gradient(to bottom, #e0e0e0, #f7f7f7);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Email container styles */
+.emailContainer {
+  width: 100%;
+  max-width: 80%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Wrapper for search bar and icon */
+.searchContainer {
+  position: relative;
+  width: 100%;
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 10px; /* Adjust as needed to position the icon */
+  width: 20px;
+  height: 20px;
+}
+
+.searchBar {
+  width: 100%;
+  padding: 8px 12px 8px 36px; /* Extra padding on the left for the icon */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #f1f3f4;
+  border-radius: 8px;
+}
+
+/* Logo container for the logo and title */
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between logo and title */
+}
+
+.logo {
+  width: 24px; /* Adjust as needed */
+  height: 24px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}

@@ -1,0 +1,38 @@
+# AI models
+modelo_emails/
+modelo_emails.zip
+
+# Keys and Jsons
+client_secret_*.json
+project-*.json
+
+# Entorno virtual
+.venv/
+venv/
+.env
+__pycache__/
+
+# Archivos de configuración de Firebase (protege tus credenciales)
+firebase.json
+*.key.json
+
+# Archivos de caché y otros archivos temporales de Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Archivos de configuración de Flask
+instance/
+config.py
+
+# Archivos de bases de datos locales (si se generan en el proyecto)
+*.sqlite3
+*.db
+
+# Archivos de sistema (Windows, macOS)
+.DS_Store
+Thumbs.db
+
+# Directorios de editor (VSCode, etc.)
+.vscode/
+.idea/
